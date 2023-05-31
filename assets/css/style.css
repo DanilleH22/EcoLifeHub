@@ -1,6 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Playfair+Display&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     border: none;
     background-color: #d8e6d5;
 }
+ body {
+    font-family: Montserrat, sans-serif;
+    font-weight: 300px;
+ }
+
+ h1 {
+    font-family: Playfair Display, serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: black;
+ }
+
+ #logo {
+    float: left;
+    font-size: 200%;
+    margin-left: 10px;
+ }
+
+/* Navigation Links*/
+
+ #menu {
+    font-size: 100%;
+    letter-spacing: 4px;
+ }
