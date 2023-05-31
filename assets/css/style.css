@@ -30,3 +30,26 @@
     font-size: 100%;
     letter-spacing: 4px;
  }
+
+ #menu, #logo {
+    line-height: 60px;
+ }
+
+ #menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 20px;
+ }
+
+ #menu a {
+    text-decoration: none;
+    color: black;
+ }
+
+ #menu a:hover {
+    border: 1px solid #fff;
+ }
+
+ .active {
+    border: 1px solid #fff;
+ }
