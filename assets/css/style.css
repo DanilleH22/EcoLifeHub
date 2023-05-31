@@ -47,9 +47,9 @@
  }
 
  #menu a:hover {
-    border: 1px solid #fff;
+    border: 2px solid #fff;
  }
 
- .active {
-    border: 1px solid #fff;
+ .first {
+    border: 2px solid #fff;
  }
