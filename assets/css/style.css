@@ -58,10 +58,23 @@ img {
    display: block;
    margin-left: auto;
    margin-right: auto;
-   width: 90%;
-   border: 2px solid #fff;
+   width: 60%;
+   
 }
 
 #elh-outer {
-   background-color: #fff;
+   
+}
+
+#mission {
+   font-size: 125%;
+   text-align: center;
+   padding-top: 20px;
+   text-decoration: underline;
+   text-decoration-thickness: 1px;
+   text-underline-position: under;
+}
+
+#value {
+   
 }
