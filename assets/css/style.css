@@ -76,5 +76,10 @@ img {
 }
 
 #value {
-   
+   text-align: left;
+   font-size: 100%;
+}
+
+#value-outer {
+
 }
