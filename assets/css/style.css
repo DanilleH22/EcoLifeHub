@@ -54,4 +54,14 @@
     border: 2px solid #fff;
  }
 
+img {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 90%;
+   border: 2px solid #fff;
+}
 
+#elh-outer {
+   background-color: #fff;
+}
