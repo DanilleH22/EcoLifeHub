@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     border: none;
-    background-color: #d8e6d5;
+    background-color: #d8e6d5;;
 }
  body {
     font-family: Montserrat, sans-serif;
@@ -48,6 +48,7 @@
 
  #menu a:hover {
     border: 2px solid #fff;
+    
  }
 
  .first {
@@ -59,27 +60,36 @@ img {
    margin-left: auto;
    margin-right: auto;
    width: 60%;
-   
 }
 
-#elh-outer {
-   
+.mission-value {
+   margin: 200px auto;
+   width: 70%;
+   background-color: #fff;
 }
 
 #mission {
    font-size: 125%;
-   text-align: center;
+   text-align: left;
    padding-top: 20px;
    text-decoration: underline;
    text-decoration-thickness: 1px;
    text-underline-position: under;
+   padding-left: 20%;
+   
 }
 
-#value {
+.value p {
    text-align: left;
    font-size: 100%;
+   padding: 10px;
+   width: 50%;
+   float: left;
+   
 }
 
-#value-outer {
-
+#elh-mission {
+   max-width: 320px;
+   float: right;
+   margin-left: 10px;
 }
