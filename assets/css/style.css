@@ -1,14 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Playfair+Display&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
-    border: none;
-    background-color: #d8e6d5;;
+   margin: 0;
+   padding: 0;
+   border: none;
+   background-color: #d8e6d5;;
 }
+
  body {
     font-family: Montserrat, sans-serif;
     font-weight: 300px;
+    background-color: #d8e6d5;
  }
 
  h1 {
@@ -29,6 +31,7 @@
  #menu {
     font-size: 100%;
     letter-spacing: 4px;
+    
  }
 
  #menu, #logo {
@@ -62,10 +65,19 @@ img {
    width: 60%;
 }
 
+/* mission value */
+
 .mission-value {
    margin: 200px auto;
    width: 70%;
    background-color: #fff;
+   display: grid;
+   grid-template-columns: 60% 40%;
+   align-items: center;
+   padding: 20px;
+   border: 1px solid #fff;
+   border-radius: 20px;
+   
 }
 
 #mission {
@@ -75,7 +87,8 @@ img {
    text-decoration: underline;
    text-decoration-thickness: 1px;
    text-underline-position: under;
-   padding-left: 20%;
+   padding-left: 40%;
+  
    
 }
 
@@ -83,13 +96,39 @@ img {
    text-align: left;
    font-size: 100%;
    padding: 10px;
-   width: 50%;
-   float: left;
+   width: 60%;
+   margin-right: 40px;
    
 }
 
+.img-value {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex: 1;
+}
+
 #elh-mission {
-   max-width: 320px;
-   float: right;
-   margin-left: 10px;
+   max-height: 100%;
+   max-width: 100%;
+   height: 100%;
+   width: auto;
+   object-fit: cover;
+   
+}
+
+/* latest article links */
+
+.top-articles h2 {
+   font-size: 125%;
+   text-align: center;
+   padding-top: 20px;
+   text-decoration: underline;
+   text-decoration-thickness: 1px;
+   text-underline-position: under;
+   
+}
+.top-articles {
+   text-align: center;
+   background-color: solid white;
 }
