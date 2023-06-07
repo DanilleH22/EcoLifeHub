@@ -174,4 +174,135 @@
 }
 
 /* footer section */
+
+footer {
+   width: 100%;
+   height: auto;
+   bottom: 0;
+   left: 0;
+   right: 0;
+}
+
+
+
 /*Newsletter*/
+
+.newsletter {
+   width: 100%;
+   height: auto;
+   background: #b6cab2;
+   padding: 30px 0;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+}
+
+.newsletter h3 {
+   background-color: #b6cab2;;
+   font-size: 30px;
+   font-weight: 300;
+   color: #fff;
+}
+
+.newsletter p {
+   background-color: #b6cab2;;
+   font-size: 14px;
+   font-weight:200;
+   color: #fff
+}
+
+.newsletter form {
+   width: 500px;
+   height: 55px;
+   margin-top: 10px;
+   background-color: #fff;
+   border-radius: 100px;
+   display: flex;
+}
+
+.newsletter form input {
+   flex: 1;
+   background-color: transparent;
+   border: none;
+   outline: none;
+   padding-left: 30px;
+   font-size: 16px;
+   font-weight: 500;
+   color: #36454f;
+}
+
+.newsletter form button {
+   width: 100px;
+   border-radius: 100px;
+   font-size: 25px;
+   border: none;
+   outline: none;
+   background-color: #CAB6B2;
+   color: #fff;
+   margin: 4px;
+   cursor: pointer;
+   transition: 0.5s;
+   
+}
+
+
+.newsletter form button:hover {
+   background-color: #bca29d;
+
+}
+
+/*socials*/
+
+.socials .fa-brands {
+  
+   font-size: 30px;
+   margin: 20px 10px 0 10px;
+   color: rgba(202, 182, 178, 0.1);
+   cursor: pointer;
+   transition: 0.5s;
+}
+
+.socials .fa-brands:hover {
+   color: rgba(202, 182, 178, 0.6);
+}
+
+/* bottom content */
+
+.bottom-content {
+   height: 50px;
+   padding: 0 20px;
+   background-color: #b6cab2;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.bottom-content p {
+   font-size: 18px;
+   font-weight: 200;
+   color: rgba(255, 255, 255, 0.5);
+}
+
+.bottom-content p a {
+   color: #ed4e6a;
+   text-decoration: none;
+   font-weight: 400;
+}
+
+.bottom-content ul li {
+   list-style: none;
+   display: inline;
+}
+
+.bottom-content ul li a {
+   text-decoration: none;
+   font-size: 18px;
+   font-weight: 300;
+   margin-left: 15px;
+   color:rgba(255, 255, 255, 0.5);
+   transition: 0.5s
+}
+
+.bottom-content ul li a:hover {
+   color: rgba(255, 255, 255, 1)
+}
