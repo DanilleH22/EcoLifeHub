@@ -10,7 +10,7 @@
  body {
     font-family: Montserrat, sans-serif;
     font-weight: 300px;
-    background-color: #d8e6d5;
+    
  }
 
  h1 {
@@ -58,7 +58,7 @@
     border: 2px solid #fff;
  }
 
-img {
+#elh-outer {
    display: block;
    margin-left: auto;
    margin-right: auto;
@@ -70,13 +70,11 @@ img {
 .mission-value {
    margin: 200px auto;
    width: 90%;
-   display: grid;
-   grid-template-columns: 60% 40%;
-   align-items: center;
    padding: 10px;
    border: 10px solid #fff;
    border-radius: 20px;
    background-color: #fff;
+   box-shadow: 2px 2px 2px 2px black;
 }
 
 #mission {
@@ -86,18 +84,24 @@ img {
    text-decoration: underline;
    text-decoration-thickness: 1px;
    text-underline-position: under;
+   background-color: #fff;
 }
 
 .value {
-   
+   display: grid;
+   grid-template-columns: 60% 40%;
+   align-items: center;
+   background-color: #fff;
 }
 
 .value p {
    text-align: center;
    font-size: 100%;
    padding: 10px;
-   width: 80%;
-   background-color: solid #fff;
+   width: 95%;
+   height: 90%;
+   background: #fff;
+
 }
 
 .img-value {
@@ -109,26 +113,62 @@ img {
 }
 
 #elh-mission {
-   max-height: 90%;
-   max-width: 90%;
-   
-   object-fit: cover;
-   
+   max-height: 95%;
+   max-width: 95%;
+   background-size: cover;
 }
 
 /* latest article links */
 
 .top-articles {
+   width: 90%;
+   padding: 10px;
+   margin: 100px auto;
    text-align: center;
-   background-color: solid white;
+}
+
+.top-articles > div {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
 }
 
 .top-articles h2 {
-   font-size: 125%;
-   text-align: center;
-   padding-top: 20px;
+   font-size: 40px;
+   padding: 10px 0;
    text-decoration: underline;
    text-decoration-thickness: 1px;
    text-underline-position: under;
    
+}
+
+.box {
+   width: 350px;
+   height: 400px;
+   background:  white;
+   margin: 0px 10px;
+   transition: 1s;
+}
+
+.box a {
+   background-color: #fff;
+   color: black;
+   padding: 5px 10px;
+   text-decoration: none;
+   display: inline-block;
+   margin: top;
+}
+
+.box:hover {
+   transform: scale(1.1);
+   box-shadow: 2px 2px 2px #000;
+   z-index: 2;
+
+}
+
+.article-img {
+   max-width: 100%;
+   height: auto;
 }
