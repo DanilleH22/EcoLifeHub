@@ -326,6 +326,6 @@ footer {
    font-size: 30px;
    font-weight: 60px;
    background-color: transparent;
-   position: relative;
+   position: absolute;
    
 }
