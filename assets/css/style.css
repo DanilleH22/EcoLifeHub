@@ -74,7 +74,7 @@
    border: 10px solid #fff;
    border-radius: 20px;
    background-color: #fff;
-   box-shadow: 2px 2px 2px 2px black;
+   box-shadow: 12px 12px 2px 1px black;
 }
 
 #mission {
@@ -113,8 +113,8 @@
 }
 
 #elh-mission {
-   max-height: 95%;
-   max-width: 95%;
+   max-height: 90%;
+   max-width: 90%;
    background-size: cover;
 }
 
