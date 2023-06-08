@@ -383,3 +383,41 @@ footer {
    max-width: 100%;
    background-size: cover;
 }
+
+/*video embed*/
+
+.about-video-out {
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.about-video {
+   margin: 200px auto;
+   width: 90%;
+   padding: 10px;
+   border: 10px solid #fff;
+   border-radius: 20px;
+   background-color: #fff;
+   box-shadow: 12px 12px 2px 1px black;
+   display: flex;
+   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-video h2, .about-video h3{
+   background: transparent;
+   text-align: center;
+   padding-bottom: 5px;
+}
+
+.about-video iframe {
+   max-width: 100%;
+   height: 400px;
+}
+
+.about-video .fa-solid {
+   background: transparent;
+}
