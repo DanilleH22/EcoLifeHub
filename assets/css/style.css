@@ -254,7 +254,7 @@ footer {
 /*socials*/
 
 .socials .fa-brands {
-  
+  background: transparent;
    font-size: 30px;
    margin: 20px 10px 0 10px;
    color: rgba(202, 182, 178, 0.1);
