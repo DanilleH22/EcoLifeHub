@@ -314,13 +314,13 @@ footer {
    height: 400px;
    padding: 0;
    margin: 100px auto;
-   box-shadow: 0px 0px 10px 2px gray;
-   background-image: url('/assets/image/3-plant.jpg');
+   background-image: url('/assets/image/3-plants.jpg');
    background-size: cover;
    background-repeat: no-repeat;
    background-attachment: fixed;
    text-align: center;
 }
+
 
 .plant h2 {
    font-size: 30px;
@@ -419,5 +419,41 @@ footer {
 }
 
 .about-video .fa-solid {
+   background: transparent;
+}
+
+/* statement */
+
+.sustainable-statement-outer {
+   width: 100%;
+   height: 400px;
+   padding: 0;
+   margin: 100px auto;
+   background-image: url('/assets/image/3-plants.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   text-align: center;
+}
+
+
+
+.sustainable-statement {
+   position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: transparent;
+}
+
+.sustainable-statement p {
+   
+   font-size: 24px;
+   margin-bottom: 10px;
+   background: transparent;
+}
+
+.sustainable-statement button {
+   font-size: 20px;
    background: transparent;
 }
