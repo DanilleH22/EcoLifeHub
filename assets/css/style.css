@@ -457,3 +457,40 @@ footer {
    font-size: 20px;
    background: transparent;
 }
+
+
+/* News Page */
+
+.green-plant {
+   width: 100%;
+   height: 400px;
+   padding: 0;
+   margin: 100px auto;
+   background-image: url('/assets/image/single-plant.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   text-align: center;
+}
+
+
+.green-plant h2 {
+   font-size: 30px;
+   font-weight: 60px;
+   background-color: transparent;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.green-plant p {
+   font-size: 26px;
+   font-weight: 60px;
+   background-color: transparent;
+   position: absolute;
+   top: 55%;
+   left: 50%;
+   transform: translate(-50%, -30%);
+}
+
