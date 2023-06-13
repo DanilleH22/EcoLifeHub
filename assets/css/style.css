@@ -586,3 +586,49 @@ footer {
    color: #fff;
 
 }
+
+/* Tips And Guides */
+
+/* Picture Header */
+
+.tips-guide {
+   width: 100%;
+   height: 400px;
+   padding: 0;
+   margin: 100px auto;
+   background-image: url('/assets/image/green-plant.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   text-align: center;
+}
+
+.tips-guide h2 {
+   font-size: 30px;
+   font-weight: 60px;
+   background-color: transparent;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.guidance h2 {
+   font-size: 40px;
+   font-weight: 60px;
+   text-align: center;
+   text-decoration: underline;
+   
+}
+
+.guidance p {
+   font-size: 26px;
+   font-weight: 60px;
+   text-align: center;
+}
+
+.container .card .hero.hero2 .container3 p{
+   font-size: 16px;
+   background: white;
+   text-align: center;
+}
