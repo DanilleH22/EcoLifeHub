@@ -504,6 +504,7 @@ footer {
    justify-content: space-between;
    align-items: center;
    position: relative;
+   
 }
 
 .container .card {
@@ -514,6 +515,7 @@ footer {
    width: 325px;
    height: 200px;
    transition: 0.5s;
+   
 }
 
 .container .card .hero.hero1 {
@@ -614,7 +616,7 @@ footer {
 }
 
 .guidance h2 {
-   font-size: 40px;
+   font-size: 36px;
    font-weight: 60px;
    text-align: center;
    text-decoration: underline;
@@ -622,7 +624,7 @@ footer {
 }
 
 .guidance p {
-   font-size: 26px;
+   font-size: 22px;
    font-weight: 60px;
    text-align: center;
 }
@@ -631,4 +633,13 @@ footer {
    font-size: 16px;
    background: white;
    text-align: center;
+}
+
+.container .card .hero.hero1 .content {
+   background: transparent;
+}
+
+.container .card .hero.hero1 .content .fa-duotone {
+   background: fixed;
+   display: flex;
 }
