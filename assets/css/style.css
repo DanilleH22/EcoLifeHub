@@ -3,7 +3,8 @@
 * {
    margin: 0;
    padding: 0;
-   border: none;
+   border:none;
+   box-sizing: border-box;
    background-color: #d8e6d5;;
 }
 
@@ -642,4 +643,12 @@ footer {
 .container .card .hero.hero1 .content .fa-duotone {
    background: fixed;
    display: flex;
+}
+
+/* fashion brands */
+
+.container .card .hero.hero1 .content .fa-solid .fa-bag-shopping {
+   width: 100px;
+   height: 50px;
+   align-content: center;
 }
