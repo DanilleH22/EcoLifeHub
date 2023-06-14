@@ -181,6 +181,7 @@
 /* footer section */
 
 footer {
+   
    width: 100%;
    height: auto;
    bottom: 0;
@@ -293,7 +294,7 @@ footer {
    font-size: 18px;
    font-weight: 200;
    color: #fff
-   background: transparent;
+   
 }
 
 .bottom-content p a {
@@ -453,7 +454,7 @@ footer {
    background: transparent;
 }
 
-/* statement */
+/* fashion statement */
 
 
 
@@ -478,7 +479,6 @@ footer {
    padding: 10px;
    margin: 100px auto;
    text-align: center;
-  
 }
 
 .news-outter > div {
@@ -546,17 +546,17 @@ footer {
 
 /* Tips And Guides */
 
-.guidance h2 {
-   font-size: 36px;
-   font-weight: 60px;
+#guidance h2 {
+   font-size: 28px;
+   font-weight: 20px;
    text-align: center;
    text-decoration: underline;
    
 }
 
-.guidance p {
-   font-size: 22px;
-   font-weight: 60px;
+#guidance p {
+   font-size: 20px;
+   font-weight: 20px;
    text-align: center;
 }
 
@@ -566,6 +566,7 @@ footer {
    justify-content: space-between;
    align-items: center;
    position: relative;
+   margin: 55px;   
 }
 
 .container .card {
@@ -615,7 +616,7 @@ footer {
    display: flex;
    justify-content: center;
    align-items: center;
-   width: 300px;
+   width: 320px;
    height: 180px;
    padding: 5px;
    background-color: #fff;
@@ -686,4 +687,16 @@ footer {
    color: #000;
 }
 
+#fashion-statement h2 {
+   text-align: center;
+   font-size: 28px;
+   font-weight: 20px;
+   text-decoration: underline;
+}
 
+
+#fashion-statement p {
+   font-size: 20px;
+   font-weight: 20px;
+   text-align: center;
+}
