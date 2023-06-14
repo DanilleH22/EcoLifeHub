@@ -115,7 +115,6 @@
    margin-right: auto;
    max-height: 60vh;
    max-width: 60vw;
-   
    background-size: contain;
    background: transparent;
    object-fit: fill;
@@ -293,7 +292,7 @@ footer {
 .bottom-content p {
    font-size: 18px;
    font-weight: 200;
-   color: rgba(255, 255, 255, 0.5);
+   color: #fff
    background: transparent;
 }
 
@@ -320,19 +319,19 @@ footer {
    font-size: 18px;
    font-weight: 300;
    margin-left: 15px;
-   color:rgba(255, 255, 255, 0.5);
+   color:rgba(2, 0, 0, 0.5);
    transition: 0.5s
 
 }
 
 .bottom-content ul li a:hover {
-   color: rgba(255, 255, 255, 1)
+   color: rgb(22, 21, 21, 1)
 }
 
-/* about section */
+/* about page */
 
-.plant {
-   width: 100%;
+.three-plants-outer {
+   width: 95%;
    height: 400px;
    padding: 0;
    margin: 100px auto;
@@ -341,11 +340,27 @@ footer {
    background-repeat: no-repeat;
    background-attachment: fixed;
    text-align: center;
-  
+   overflow: hidden;
+   box-shadow: 12px 12px 2px 1px #b6cab2;
+   
+}
+
+.three-plants-inside{
+   position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: transparent;
+}
+
+.three-plants-inside p {
+   font-size: 24px;
+   margin-bottom: 10px;
+   background: transparent;
 }
 
 
-.plant h2 {
+.three-plants-inside h2 {
    font-size: 30px;
    font-weight: 60px;
    background-color: transparent;
@@ -440,80 +455,22 @@ footer {
 
 /* statement */
 
-.sustainable-statement-outer {
-   width: 100%;
-   height: 400px;
-   padding: 0;
-   margin: 100px auto;
-   background-image: url('/assets/image/3-plants.jpg');
-   background-size: cover;
-   background-repeat: no-repeat;
-   background-attachment: fixed;
-   text-align: center;
-}
 
 
-
-.sustainable-statement {
-position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: transparent;
-}
-
-.sustainable-statement p {
-   font-size: 24px;
-   margin-bottom: 10px;
-   background: transparent;
-}
-
-.sustainable-statement button {
+.three-plants-inside button {
    font-size: 18px;
    background: transparent;
    border-width: 4px;
    border-style: outset;
 }
 
-.sustainable-statement a {
+.three-plants-inside a {
    background: transparent;
    color: #000;
 }
 
 
 /* News Page */
-
-/* Photo - image not showing but aligned under 
-header correctly*/
-
-#green-plant-outer {
-   width: 100%;
-   height: 300px;
-   overflow: hidden;
-   
-}
-
-#green-plant {
-   width: 100%;
-   height: 300px;
-   background-image: url('/../image/single-plant.jpg');
-   background-repeat: no-repeat;
-   background-position: center center;
-   position: absolute;
-}
-
-
-#green-plant h2 {
-   font-size: 30px;
-   font-weight: 60px;
-   background-color: transparent;
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%);
-}
-
-
 
 /* Articles */
 .news-outter {
@@ -588,30 +545,6 @@ header correctly*/
 
 
 /* Tips And Guides */
-
-/* Picture Header */
-
-section.tips-guide {
-   width: 100%;
-   height: 400px;
-   padding: 0;
-   margin: 100px auto;
-   background-image: url('/assets/image/green-plant.jpg');
-   background-size: cover;
-   background-repeat: no-repeat;
-   background-attachment: fixed;
-   text-align: center;
-}
-
-.tips-guide h2 {
-   font-size: 30px;
-   font-weight: 60px;
-   background-color: transparent;
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%);
-}
 
 .guidance h2 {
    font-size: 36px;
