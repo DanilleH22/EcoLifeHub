@@ -1,39 +1,37 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome,
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+# EcoLife Hub
+The aim of this website is to raise awareness on how being sustainable can benefit the world. We use inspiring content to help individuals live a sustainable life.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 11th, 2023**
+## Installation
+To install the website you will need to us the git repository, which can be found here: https://github.com/DanilleH22/EcoLifeHub.git
 
-## Codeanywhere Reminders
+## Usage 
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+Upon downloading and opening the repository, you should be able to open it in your web browser. By navigating to: https://8000-danilleh22-ecolifehub-jcm8utynzgl.ws-eu99.gitpod.io/index.html you will access the web version.
 
-`python3 -m http.server`
+This will allow you to explore the webpages different sections.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+## Features
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+This website hase vaious features including:
+* Latest to articles covering topics on sustainability, eg, travel, transport.
+* Video documentary explaining what is sustainability.
+* Tips on how to adopt a sustainable life.
+* Fashion brands that are sustainable.
+* Social sharing option, to allow you to share with others and spread awareness.
 
-`http_server`
+## Technologies used 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+* HTML5
+* CSS
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+## Contribution
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+Contributions are welcome! Please do ensure that your code adheres to the project's coding conventions and includes appropriate documentation. However if you would like to make any major changes, please contact first.
 
-To log into the Heroku toolbelt CLI:
+## Contact Information
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+For any questions, feedback, or collaboration inquiries, please reach out to me on LinkedIn: https://uk.linkedin.com/in/danille-hamilton-971b29206
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
----
-
-Happy coding!
