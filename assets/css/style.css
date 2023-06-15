@@ -76,14 +76,7 @@
    box-shadow: 12px 12px 2px 1px #36454f;
 }
 
-
-.value {
-   display: grid;
-   grid-template-columns: 40% 60%;
-   background-color: #fff;
-}
-
-.value p strong {
+.mission-value h2 {
    font-family: Montserrat, sans-serif;
    font-size: 125%;
    text-align: center;
@@ -94,18 +87,22 @@
    background-color: #fff;
 }
 
+.value {
+   display: grid;
+   justify-content: center;
+   grid-template-columns: 40% 60%;
+   background-color: #fff;
+}
+
 .value p {
    font-family: Montserrat, sans-serif;
    text-align: center;
    font-size: 100%;
-   padding: 10px;
    width: 95%;
    height: 90%;
    background: #fff;
 
 }
-
-
 
 #elh-mission {
    display: block;
@@ -116,7 +113,6 @@
    background-size: contain;
    background: transparent;
    object-fit: fill;
-   
 }
 
 /* latest article links */
@@ -565,9 +561,9 @@ footer {
       height: auto;
       order: 2;
    }
+
    /*About Section */
 
-   
 
    .about2 {
       width: 90%;
