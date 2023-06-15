@@ -334,7 +334,7 @@ footer {
    height: 400px;
    padding: 0;
    margin: 100px auto;
-   background-image: url('assets/image/3-plants.webp');
+   background-image: url('./assets/image/3-plants.webp');
    background-size: cover;
    background-repeat: no-repeat;
    background-attachment: fixed;
@@ -386,7 +386,7 @@ footer {
 
 
 
-.about-inner p {
+.about p {
    font-family: Montserrat, sans-serif;
    text-align: center;
    font-size: 18px;
@@ -398,14 +398,14 @@ footer {
 
 
 
-.about-inner {
+#about-inner {
    display: grid;
    grid-template-columns: 50% 50%;
    align-items: center;
    background-color: #fff;
 }
 
-.about-inner strong {
+#about-inner strong {
    font-family: Montserrat, sans-serif;
    font-size: 125%;
    text-align: center;
@@ -415,7 +415,7 @@ footer {
    background: transparent;
 }
 
-.about-inner em {
+#about-inner em {
    font-family: Montserrat, sans-serif;
    background: transparent;
 }
@@ -465,38 +465,15 @@ footer {
    background-color: #fff;
 }
 
-.about-inner2 {
+#about-inner2 {
    display: grid;
    grid-template-columns: 50% 50%;
    align-items: center;
    background-color: #fff;
 }
 
-.about-inner2 .fa-solid {
+#about-inner2 .fa-solid {
    background: #fff;
-}
-
-/*video embed*/
-
-.about-video-out {
-   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
-.about-video {
-   margin: 200px auto;
-   width: 95%;
-   padding: 10px;
-   border: 10px solid #fff;
-   border-radius: 10px;
-   background-color: #fff;
-   box-shadow: 12px 12px 2px 1px #36454f;
-   display: flex;
-   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 /* News Page */
@@ -580,4 +557,58 @@ footer {
    font-family: Montserrat, sans-serif;
    font-size: 20px;
    text-align: center;
+}
+
+/* Media Queries */
+
+/* For screens 1300px and down */
+@media screen and (max-width: 1300px){
+   .about {
+      width: 90%;
+      height: 100%;
+      margin: 0 auto;
+      flex-direction: column;
+      margin: 20px;
+   }
+
+   .about p {
+      margin-bottom: 30px;
+      width: 100%;
+      height: 80%;
+      float: right;
+   }
+
+   .recycle {
+      width: 100%;
+      float: left;
+      clear: both;
+      padding: 0;
+   }
+
+   .about2 {
+      width: 90%;
+      height: 100%;
+      margin: 20px;;
+      flex-direction: column;
+   }
+
+   .about2 iframe {
+      width: 100%;
+      
+      float: left
+   }
+
+   .about2 p {
+      margin-bottom: 30px;
+      width: 100%;
+      height: 80%;
+      float: right;
+
+   }
+}
+
+
+/* For screens 660px and down */
+@media screen and (max-width: 660px){
+
 }
