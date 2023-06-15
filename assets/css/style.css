@@ -334,7 +334,7 @@ footer {
    height: 400px;
    padding: 0;
    margin: 100px auto;
-   background-image: url('/assets/image/3-plants.webp');
+   background-image: url('assets/image/3-plants.webp');
    background-size: cover;
    background-repeat: no-repeat;
    background-attachment: fixed;
