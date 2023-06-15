@@ -55,10 +55,6 @@
     
  }
 
- .first {
-    border: 2px solid #fff;
-   
- }
 
 #elh-outer {
    display: block;
@@ -88,6 +84,7 @@
 }
 
 .value p strong {
+   font-family: Montserrat, sans-serif;
    font-size: 125%;
    text-align: center;
    padding-top: 10px;
@@ -98,6 +95,7 @@
 }
 
 .value p {
+   font-family: Montserrat, sans-serif;
    text-align: center;
    font-size: 100%;
    padding: 10px;
@@ -139,6 +137,7 @@
 }
 
 .top-articles h2 {
+   font-family: Playfair Display, serif;
    font-size: 40px;
    padding: 10px 0;
    text-decoration: underline;
@@ -205,6 +204,7 @@ footer {
 }
 
 .newsletter h3 {
+   font-family: Playfair Display, serif;
    background-color: #b6cab2;;
    font-size: 30px;
    font-weight: 300;
@@ -212,6 +212,7 @@ footer {
 }
 
 .newsletter p {
+   font-family: Montserrat, sans-serif;
    background-color: #b6cab2;;
    font-size: 14px;
    font-weight:200;
@@ -257,7 +258,7 @@ footer {
 
 }
 
-.newsletter form button .fa-regular {
+.newsletter .fa-regular {
    background: transparent;
 }
 
@@ -265,6 +266,10 @@ footer {
 
 .socials {
    background: transparent;
+}
+
+.socials a {
+   background-color: #b6cab2;
 }
 
 .socials .fa-brands {
@@ -292,20 +297,22 @@ footer {
 }
 
 .bottom-content p {
+   font-family: Montserrat, sans-serif;
    font-size: 18px;
    font-weight: 200;
    color: #000
+    
 }
 
 .bottom-content p a {
    color: #ed4e6a;
    text-decoration: none;
    font-weight: 400;
-   background: transparent;
 }
 
 .bottom-content ul {
-   background: transparent;
+   background: #b6cab2;;
+   font-family: Montserrat, sans-serif;
 }
 
 .bottom-content ul li {
@@ -314,7 +321,7 @@ footer {
    background: transparent;
 }
 
-.bottom-content ul li a {
+.bottom-content a {
    background-color: transparent;
    text-decoration: none;
    font-size: 18px;
@@ -355,6 +362,7 @@ footer {
 }
 
 .three-plants-inside p {
+   font-family: Montserrat, sans-serif;
    font-size: 24px;
    margin-bottom: 10px;
    background: transparent;
@@ -362,6 +370,7 @@ footer {
 
 
 .three-plants-inside h2 {
+   font-family: Playfair Display, serif;
    font-size: 30px;
    font-weight: 60px;
    background-color: transparent;
@@ -387,6 +396,7 @@ footer {
 
 
 .about-inner p {
+   font-family: Montserrat, sans-serif;
    text-align: center;
    font-size: 18px;
    padding: 10px;
@@ -404,8 +414,8 @@ footer {
    background-color: #fff;
 }
 
-.about-inner p strong
-{
+.about-inner strong {
+   font-family: Montserrat, sans-serif;
    font-size: 125%;
    text-align: center;
    text-decoration: underline;
@@ -414,8 +424,8 @@ footer {
    background: transparent;
 }
 
-.about-inner p strong em {
-
+.about-inner em {
+   font-family: Montserrat, sans-serif;
    background: transparent;
 }
 
@@ -445,6 +455,7 @@ footer {
 
 
 .about2 p {
+   font-family: Montserrat, sans-serif;
    text-align: center;
    font-size: 18px;
    padding: 10px;
@@ -453,7 +464,8 @@ footer {
    background: #fff;
 }
 
-.about2 p strong {
+.about2 strong {
+   font-family: Montserrat, sans-serif;
    font-size: 125%;
    text-align: center;
    text-decoration: underline;
@@ -496,23 +508,7 @@ footer {
   align-items: center;
 }
 
-.about-video h2, .about-video h3{
-   background: transparent;
-   text-align: center;
-   padding-bottom: 5px;
-}
-
-.about-video iframe {
-   max-width: 100%;
-   height: 400px;
-}
-
-.about-video .fa-solid {
-   background: transparent;
-}
-
 /* fashion statement */
-
 
 
 .three-plants-inside button {
@@ -547,6 +543,7 @@ footer {
 }
 
 .news-outter h2 {
+   font-family: Playfair Display, serif;
    font-size: 24px;
    padding: 10px 0;
 
@@ -561,12 +558,9 @@ footer {
 }
 
 .news-box h3 {
+   font-family: Playfair Display, serif;
    font-size: 18px;
    padding: 10px 0;
-   background: transparent;
-}
-
-.news-box p {
    background: transparent;
 }
 
@@ -604,6 +598,7 @@ footer {
 /* Tips And Guides */
 
 #guidance h2 {
+   font-family: Playfair Display, serif;
    font-size: 28px;
    font-weight: 20px;
    text-align: center;
@@ -612,6 +607,7 @@ footer {
 }
 
 #guidance p {
+   font-family: Montserrat, sans-serif;
    font-size: 20px;
    font-weight: 20px;
    text-align: center;
@@ -630,7 +626,7 @@ footer {
    position: relative;
 }
 
-.container .card .hero {
+.container .hero {
    width: 325px;
    height: 200px;
    transition: 0.5s;
@@ -651,20 +647,21 @@ footer {
    transform: translateY(0);
    background-color: #b6cab2;
 }
-.container .card .hero.hero1 .content {
+.container .hero.hero1 .content {
    opacity: 1;
 }
 
-.container .card .hero.hero1 .content img {
+.container .hero.hero1 .content img {
    max-width: 200px;
    display: block;
    margin: auto;
 }
 
-.container .card .hero.hero1 .content h3 {
+.container .hero.hero1 .content h3 {
    margin: 8px 0px;
    color: #000;
    text-align: center;
+   font-family: Playfair Display, serif;
    font-size: 18px;
    background: transparent;
 }
@@ -685,48 +682,52 @@ footer {
    transform: translateY(0px);
 }
 
-.container .card .hero.hero2 .container2 p{
+.container .hero.hero2 .container2 p{
+   font-family: Montserrat, sans-serif;
    font-size: 20px;
    background: white;
    text-align: center;
 }
 
-.container .card .hero.hero2 .container2 a {
+.container .hero.hero2 .container2 a {
    margin: 15px 0px;
    background-color: white;
    display: inline-block;
    text-decoration: none;
+   font-family: Montserrat, sans-serif;
    font-weight: 600;
    color: #222;
    padding: 5px;
    border: 1px solid #222;
 }
 
-.container .card .hero.hero2 .content a:hover {
+.container .hero.hero2 .content a:hover {
    background-color: #222;
    color: #fff;
 
 }
 
 
-.container .card .hero.hero2 .container3 {
+.container .hero.hero2 .container3 {
    background-color: #fff;
    text-align: center;
 }
 
-.container .card .hero.hero2 .container3 p{
+.container .hero.hero2 .container3 p{
+   font-family: Montserrat, sans-serif;
+
    font-size: 16px;
    background: white;
    text-align: center;
 }
 
-.container .card .hero.hero1 .content {
+.container .hero.hero1 .content {
    background: transparent;
 }
 
 /* fashion brands */
 
-.container .card .hero.hero1 .content > .fa-solid {
+.container .hero.hero1 .content > .fa-solid {
    width: 100px;
    height: 50px;
    background: transparent;
@@ -736,7 +737,8 @@ footer {
 
 }
 
-.container .card .hero.hero2 .container3 a {
+.container .hero.hero2 .container3 a {
+   font-family: Montserrat, sans-serif;
    background: #fff;
    text-align: center;
    border-style: outset;
@@ -745,6 +747,7 @@ footer {
 }
 
 #fashion-statement h2 {
+   font-family: Playfair Display, serif;
    text-align: center;
    font-size: 28px;
    font-weight: 20px;
@@ -753,6 +756,7 @@ footer {
 
 
 #fashion-statement p {
+   font-family: Montserrat, sans-serif;
    font-size: 20px;
    font-weight: 20px;
    text-align: center;
