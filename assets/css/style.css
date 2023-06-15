@@ -335,7 +335,7 @@ footer {
    height: 400px;
    padding: 0;
    margin: 100px auto;
-   background-image: url('/assets/image/3-plants.jpg');
+   background-image: url('/assets/image/3-plants.webp');
    background-size: cover;
    background-repeat: no-repeat;
    background-attachment: fixed;
@@ -423,7 +423,7 @@ footer {
 
 .recycle {
    max-height: 60vh;
-   max-width: 160vw;
+   max-width: 100%;
    background-size: cover;
    display: block;
    margin-left: auto;
