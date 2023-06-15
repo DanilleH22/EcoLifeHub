@@ -550,8 +550,21 @@ footer {
 
    /* Home page */
 
-   
+   .mission-value {
+      width: 80%;
+      height: auto;
+   }
 
+   .value {
+      width: 90%;
+      grid-template-columns: 1fr;
+   }
+
+   #elh-mission {
+      width: 85%;
+      height: auto;
+      order: 2;
+   }
    /*About Section */
 
    
