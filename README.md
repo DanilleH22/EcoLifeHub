@@ -90,6 +90,10 @@ INPUT PICTURE HERE
 * The embedded video has also been played to make sure it works and controls are working too. 
 * The navigation at the top and in the footer has been tested to make sure it clicks to the page been shown.
 
+When testing the website I had run into the issue of the images being used not being responsive. This was fixed by changing images from jpg to webp and including a fixed height and width in the HTML code. 
+
+Another issue faced was when the website was deployed it would not show the picture images ojn the website, only the alt would show up. This was fixed by 
+
 ### Validator Testing 
 
 Validator testing has been conducted to find any errors on the website. 
@@ -119,9 +123,12 @@ For any questions, feedback, or collaboration inquiries, please reach out to me 
 ## Credits
 
 ### Content 
-The icons used were from fontawesome.com
-The artciles used have all been linked and taken there
+The artciles used have all been linked and taken there.
 The tips used for tips and guide were from chatgpt.
+The code to make the footer was taken from the youtube. video: https://www.youtube.com/watch?v=RZ0RSlvhNdw&feature=youtu.be
+Part of the code to create the article boxes was taken from: https://www.youtube.com/watch?v=Zz8A4NqoLrE&feature=youtu.be
 
 ### Media 
 The images used on the about, tips and guide and news page are from Pexels.com
+The landing image was created in Canva.
+The icons used were from fontawesome.com.
