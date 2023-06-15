@@ -357,6 +357,7 @@ footer {
 
 /* about section */
 
+
 .about {
    margin: 200px auto;
    width: 95%;
@@ -380,8 +381,6 @@ footer {
    background: #fff;
 }
 
-
-
 .about-inner {
    display: grid;
    grid-template-columns: 50% 50%;
@@ -402,6 +401,21 @@ footer {
 .about-inner em {
    font-family: Montserrat, sans-serif;
    background: transparent;
+}
+
+.about-text {
+   background-color: #fff;
+}
+
+.about-text h2 {
+   font-family: Playfair Display, serif;
+   font-size: 20px;
+   text-align: center;
+   text-decoration: underline;
+   text-decoration-thickness: 1px;
+   text-underline-position: under;
+   padding-bottom: 30px;
+   background-color: #fff;
 }
 
 .recycle {
@@ -427,7 +441,19 @@ footer {
    box-shadow: 12px 12px 2px 1px #36454f;
 }
 
+.about-text2 {
+   background-color: #fff;
+}
 
+.about-text2 h2 {
+   font-family: Playfair Display, serif;
+   font-size: 20px;
+   text-align: center;
+   text-decoration: underline;
+   text-decoration-thickness: 1px;
+   text-underline-position: under;
+   background-color: #fff;
+}
 
 .about2 p {
    font-family: Montserrat, sans-serif;
@@ -437,16 +463,6 @@ footer {
    width: 95%;
    height: 100%;
    background: #fff;
-}
-
-.about2 strong {
-   font-family: Montserrat, sans-serif;
-   font-size: 125%;
-   text-align: center;
-   text-decoration: underline;
-   text-decoration-thickness: 1px;
-   text-underline-position: under;
-   background-color: #fff;
 }
 
 .about-inner2 {
