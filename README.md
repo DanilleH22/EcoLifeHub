@@ -1,6 +1,3 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
-
-
 # EcoLife Hub
 The aim of this website is to raise awareness on how being sustainable can benefit the world. We use inspiring content to help individuals live a sustainable life.
 
@@ -12,20 +9,20 @@ The aim of this website is to raise awareness on how being sustainable can benef
 * The EcoLifeHub about links back to the home page.
 * The use of this is to make it easier to navigate through all the pages, without having to press the back button.
 
-INPUT PICTURE HERE
+![Screenshot of Navigation bar.](/assets/image/readme-images/Navigation-bar.png)
 
 ### Landing Page Image
 
 * The landing page picture shows our websites slogan, along wiht a sustainable globe. This shows users that this page is about being sustainable.
 
-INPUT PICTURE HERE
+![Screenshot of Navigation bar.](/assets/image/readme-images/head-photo.png)
 
 ### Our Mission Section
 
 * Allows users to know our mission values, including the topics we will be covering
 * This section also allows users to knwo what we stand for and why we created the website
 
-INPUT PICTURE HERE
+![Screenshot of Navigation bar.](/assets/image/readme-images/our-mission.png)
 
 ### Top Articles Section
 
@@ -34,7 +31,7 @@ INPUT PICTURE HERE
 * All articles open in a new tab.
 * This section will be updated weekly.
 
-INPUT PICTURE HERE
+![Screenshot of Navigation bar.](/assets/image/readme-images/top-articles.png)
 
 ### Footer 
 
@@ -44,39 +41,41 @@ INPUT PICTURE HERE
 
 INPUT PICTURE HERE
 
-### Landing Photo
+### Landing About and News Photo
 
 * Picture of plant featured at the top of both About and News 
 * Allows users to know what page they are on
 
-INPUT PICTURE HERE
+![Screenshot of Navigation bar.](/assets/image/readme-images/head-photo.png)
 
 ### Who Are We Section 
 
 * Intro of who we are and let users know why we creayed the website
 * There is also a photo of a phone with recycling, this is to not bore users with just text.
 
-INPUT PICTURE HERE
+![Screenshot of Navigation bar.](/assets/image/readme-images/who-are-we.png)
 
-### Our Approach 
+### Our Approach Section
 
 * How we aim to inform users about sustainability, this includes what our goals for the website are and how th website will do so.
 * There is a video documentary linked to inform users more about sustainability.
 
-INPUT PICTURE HERE
+![Screenshot of Navigation bar.](/assets/image/readme-images/our-approach-section.png)
 
-### About Us Statement
+### About Us Statement Section
 
 * The same photo as the landing page is used
 * A statement about working together to be more sustainable.
 * Link to Article section to, so that users have easy access to learning more about different topics of sustainability.
+
+![Screenshot of Navigation bar.](/assets/image/readme-images/about-statement.png)
 
 ### News Page 
 
 * Article links on different topics, each article has a picture to try represent the topic being covered by the artcile.
 * Allows users to find easy access as to how not being sustainable effects each topic area.
 
-INPUT PICTURE HERE
+![Screenshot of Navigation bar.](/assets/image/readme-images/news-articles.png)
 
 ## Testing
 
@@ -96,18 +95,22 @@ INPUT PICTURE HERE
 Validator testing has been conducted to find any errors on the website. 
 When passing through W3C testing no errors were returned
 When passing through jigsaw no errors were returned 
+* Lighthouse in Devtools has been used to check the accessibility, confirming the font and color chosen are well suited.
+
+![Screenshot of Navigation bar.](/assets/image/readme-images/lighthouse-accesibility.png)
 
 ### Unfixed Bugs
+Responsiveness
 
 ## Deployment
 
 The site has been deployed to GitHub. To deploy the website it was conducted as such: 
-    1 Go on GitHub repository and go to settings
-    2 Select pages from the side tab 
-    3 Under build and deployment, look for the section called 'branch'
-    4 Change main and click save
+1. Go on GitHub repository and go to settings
+2. Select pages from the side tab 
+3. Under build and deployment, look for the section called 'branch'
+4. Change main and click save
 
-The live link will here:
+The live link will here: https://https://danilleh22.github.io/EcoLifeHub/
 
 ## Contact Information
 
