@@ -574,7 +574,7 @@ footer {
 
 }
 
-#article-img {
+.article-img {
    max-width: 100%;
    height: 265px;
 }
@@ -588,7 +588,6 @@ footer {
    font-family: Playfair Display, serif;
    text-align: center;
    font-size: 28px;
-   font-weight: 20px;
    text-decoration: underline;
 }
 
@@ -596,6 +595,5 @@ footer {
 #fashion-statement p {
    font-family: Montserrat, sans-serif;
    font-size: 20px;
-   font-weight: 20px;
    text-align: center;
 }
