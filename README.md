@@ -96,8 +96,9 @@ Another issue faced was when the website was deployed it would not show the pict
 
 ### Validator Testing 
 
-Validator testing has been conducted to find any errors on the website. 
-When passing through W3C testing no errors were returned
+Validator testing has been conducted to find any errors on the website.
+ 
+* When passing through W3C CSS Validation tester no errors were returned.
 When passing through jigsaw no errors were returned 
 * Lighthouse in Devtools has been used to check the accessibility, confirming the font and color chosen are well suited.
 
