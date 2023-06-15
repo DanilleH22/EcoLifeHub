@@ -289,22 +289,10 @@ footer {
    justify-content: space-between;
 }
 
-.bottom-content p {
-   font-family: Montserrat, sans-serif;
-   font-size: 18px;
-   font-weight: 200;
-   color: #000
-}
-
-.bottom-content p a {
-   color: #ed4e6a;
-   text-decoration: none;
-   font-weight: 400;
-}
-
 .bottom-content ul {
    background: #b6cab2;;
    font-family: Montserrat, sans-serif;
+
 }
 
 .bottom-content ul li {
@@ -334,7 +322,7 @@ footer {
    height: 400px;
    padding: 0;
    margin: 100px auto;
-   background-image: url('./assets/image/3-plants.webp');
+   background-image: url('assets/image/3-plants.webp');
    background-size: cover;
    background-repeat: no-repeat;
    background-attachment: fixed;
@@ -398,14 +386,14 @@ footer {
 
 
 
-#about-inner {
+.about-inner {
    display: grid;
    grid-template-columns: 50% 50%;
    align-items: center;
    background-color: #fff;
 }
 
-#about-inner strong {
+.about-inner strong {
    font-family: Montserrat, sans-serif;
    font-size: 125%;
    text-align: center;
@@ -415,7 +403,7 @@ footer {
    background: transparent;
 }
 
-#about-inner em {
+.about-inner em {
    font-family: Montserrat, sans-serif;
    background: transparent;
 }
@@ -465,15 +453,11 @@ footer {
    background-color: #fff;
 }
 
-#about-inner2 {
+.about-inner2 {
    display: grid;
    grid-template-columns: 50% 50%;
    align-items: center;
    background-color: #fff;
-}
-
-#about-inner2 .fa-solid {
-   background: #fff;
 }
 
 /* News Page */
@@ -563,48 +547,60 @@ footer {
 
 /* For screens 1300px and down */
 @media screen and (max-width: 1300px){
+
+   /* Home page */
+
+   
+
+   /*About Section */
+
    .about {
       width: 90%;
-      height: 100%;
-      margin: 0 auto;
-      flex-direction: column;
       margin: 20px;
    }
 
-   .about p {
-      margin-bottom: 30px;
+   .about-inner {
       width: 100%;
-      height: 80%;
-      float: right;
+      height: auto;
+      grid-template-columns: 1fr;
+      
+   }
+
+   .about-inner p {
+      width: 100%;
+      height: auto;
+      float: left;
    }
 
    .recycle {
-      width: 100%;
-      float: left;
       clear: both;
-      padding: 0;
+      width: 100%;
+      height: auto;
+      float: right;
    }
 
    .about2 {
       width: 90%;
-      height: 100%;
-      margin: 20px;;
-      flex-direction: column;
+      height: auto;
    }
 
-   .about2 iframe {
+   .about-inner2 {
+      width: 90%;
+      grid-template-columns: 1fr;
+   }
+
+   .about-inner2 p {
+      width: 105%;
+      height: auto;
+      padding: 10px
+   }
+
+   .about-inner2 iframe {
+      margin: 20px;
       width: 100%;
-      
-      float: left
+      height: auto;
    }
 
-   .about2 p {
-      margin-bottom: 30px;
-      width: 100%;
-      height: 80%;
-      float: right;
-
-   }
 }
 
 
