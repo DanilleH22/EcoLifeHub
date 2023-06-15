@@ -554,30 +554,7 @@ footer {
 
    /*About Section */
 
-   .about {
-      width: 90%;
-      margin: 20px;
-   }
-
-   .about-inner {
-      width: 100%;
-      height: auto;
-      grid-template-columns: 1fr;
-      
-   }
-
-   .about-inner p {
-      width: 100%;
-      height: auto;
-      float: left;
-   }
-
-   .recycle {
-      clear: both;
-      width: 100%;
-      height: auto;
-      float: right;
-   }
+   
 
    .about2 {
       width: 90%;
@@ -604,7 +581,32 @@ footer {
 }
 
 
-/* For screens 660px and down */
-@media screen and (max-width: 660px){
+/* For screens 1000px and down */
+@media screen and (max-width: 1000px){
 
+   /* About Page*/
+   .about {
+      width: 90%;
+      margin: 20px;
+   }
+
+   .about-inner {
+      width: 100%;
+      height: auto;
+      grid-template-columns: 1fr;
+      
+   }
+
+   .about-inner p {
+      width: 100%;
+      height: auto;
+      float: left;
+   }
+
+   .recycle {
+      
+      width: 100%;
+      height: auto;
+      order: 2;
+   }
 }
