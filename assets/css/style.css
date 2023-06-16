@@ -471,6 +471,12 @@ footer {
    height: 100%;
 }
 
+.three-plants-inside p {
+   font-family: Montserrat, sans-serif;
+   font-size: 20px;
+   background: transparent;
+}
+
 /* News Page */
 
 /* Articles */
