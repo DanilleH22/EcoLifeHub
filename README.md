@@ -9,20 +9,20 @@ The aim of this website is to raise awareness on how being sustainable can benef
 * The EcoLifeHub about links back to the home page.
 * The use of this is to make it easier to navigate through all the pages, without having to press the back button.
 
-![Screenshot of Navigation bar.](/assets/image/readme-images/Navigation-bar.png)
+![Screenshot of Navigation bar.](/assets/image/readme-images/nav-bar.png)
 
 ### Landing Page Image
 
 * The landing page picture shows our websites slogan, along wiht a sustainable globe. This shows users that this page is about being sustainable.
 
-![Screenshot of Navigation bar.](/assets/image/readme-images/head-photo.png)
+![Screenshot of head photo on home page.](/assets/image/readme-images/head-photo.png)
 
 ### Our Mission Section
 
 * Allows users to know our mission values, including the topics we will be covering
 * This section also allows users to knwo what we stand for and why we created the website
 
-![Screenshot of Navigation bar.](/assets/image/readme-images/our-mission.png)
+![Screenshot of Our mission in home section.](/assets/image/readme-images/our-mission.png)
 
 ### Top Articles Section
 
@@ -31,7 +31,7 @@ The aim of this website is to raise awareness on how being sustainable can benef
 * All articles open in a new tab.
 * This section will be updated weekly.
 
-![Screenshot of Navigation bar.](/assets/image/readme-images/top-articles.png)
+![Screenshot of top 3 articles in home page.](/assets/image/readme-images/top-articles.png)
 
 ### Footer 
 
@@ -39,28 +39,28 @@ The aim of this website is to raise awareness on how being sustainable can benef
 * Links to relevant social media in a new tab, this also helps users stay connected via social media.
 * Navigation buttons at the bottom for Home, About and News, saving users from scrolling to the top of the website.
 
-INPUT PICTURE HERE
+![Screenshot of footer across all three pages.](/assets/image/readme-images/footer-section.png)
 
 ### Landing About and News Photo
 
 * Picture of plant featured at the top of both About and News 
 * Allows users to know what page they are on
 
-![Screenshot of Navigation bar.](/assets/image/readme-images/head-photo.png)
+![Screenshot of landing page photo and title of. page located on.](/assets/image/readme-images/head-photo.png)
 
 ### Who Are We Section 
 
 * Intro of who we are and let users know why we creayed the website
 * There is also a photo of a phone with recycling, this is to not bore users with just text.
 
-![Screenshot of Navigation bar.](/assets/image/readme-images/who-are-we.png)
+![Screenshot of who are we section in about page.](/assets/image/readme-images/who-are-we.png)
 
 ### Our Approach Section
 
 * How we aim to inform users about sustainability, this includes what our goals for the website are and how th website will do so.
 * There is a video documentary linked to inform users more about sustainability.
 
-![Screenshot of Navigation bar.](/assets/image/readme-images/our-approach-section.png)
+![Screenshot of our approach section in about page.](/assets/image/readme-images/our-approach-section.png)
 
 ### About Us Statement Section
 
@@ -68,14 +68,14 @@ INPUT PICTURE HERE
 * A statement about working together to be more sustainable.
 * Link to Article section to, so that users have easy access to learning more about different topics of sustainability.
 
-![Screenshot of Navigation bar.](/assets/image/readme-images/about-statement.png)
+![Screenshot of statement for being sustainable.](/assets/image/readme-images/about-statement.png)
 
 ### News Page 
 
 * Article links on different topics, each article has a picture to try represent the topic being covered by the artcile.
 * Allows users to find easy access as to how not being sustainable effects each topic area.
 
-![Screenshot of Navigation bar.](/assets/image/readme-images/news-articles.png)
+![Screenshot of some of news article on the news page.](/assets/image/readme-images/news-articles.png)
 
 ## Testing
 
@@ -92,12 +92,15 @@ INPUT PICTURE HERE
 
 When testing the website I had run into the issue of the images being used not being responsive. This was fixed by changing images from jpg to webp and including a fixed height and width in the HTML code. 
 
+Another bug that I ahd faced was when trying to get my about sections to be responsive, photos and irames would not go horizontal. This was fixed by using 'grid-template-column' in css and 'order'.
+
 Another issue faced was when the website was deployed it would not show the picture images ojn the website, only the alt would show up. This was fixed by 
 
 ### Validator Testing 
 
 Validator testing has been conducted to find any errors on the website.
  
+* When passing through W3C HTML Validator, no errors were returned.
 * When passing through W3C CSS Validation tester no errors were returned.
 When passing through jigsaw no errors were returned 
 * Lighthouse in Devtools has been used to check the accessibility, confirming the font and color chosen are well suited.
