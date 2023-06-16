@@ -76,14 +76,18 @@
    box-shadow: 12px 12px 2px 1px #36454f;
 }
 
-.mission-value h2 {
-   font-family: Montserrat, sans-serif;
+.value-text {
+   background-color: #fff;
+}
+
+.value-text h2 {
+   font-family: Playfair Display, serif;
    font-size: 125%;
    text-align: center;
-   padding-top: 10px;
    text-decoration: underline;
    text-decoration-thickness: 1px;
    text-underline-position: under;
+   padding-bottom: 10px;
    background-color: #fff;
 }
 
@@ -324,8 +328,7 @@ footer {
    background-attachment: fixed;
    text-align: center;
    overflow: hidden;
-   box-shadow: 12px 12px 2px 1px #b6cab2;
-   
+   box-shadow: 12px 12px 2px 1px #b6cab2;  
 }
 
 .three-plants-inside{
@@ -335,14 +338,6 @@ footer {
   transform: translate(-50%, -50%);
   background: transparent;
 }
-
-.three-plants-inside p {
-   font-family: Montserrat, sans-serif;
-   font-size: 24px;
-   margin-bottom: 10px;
-   background: transparent;
-}
-
 
 .three-plants-inside h2 {
    font-family: Playfair Display, serif;
