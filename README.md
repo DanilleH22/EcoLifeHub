@@ -60,13 +60,13 @@ The aim of this website is to raise awareness on how being sustainable can benef
 * How we aim to inform users about sustainability, this includes what our goals for the website are and how th website will do so.
 * There is a video documentary linked to inform users more about sustainability.
 
-![Screenshot of our approach section in about page.](/assets/image/readme-images/our-approach-section.png)
+![Screenshot of our approach section in about page.](/assets/image/readme-images/our-approach.png)
 
 ### About Us Statement Section
 
 * The same photo as the landing page is used
 * A statement about working together to be more sustainable.
-* Link to Article section to, so that users have easy access to learning more about different topics of sustainability.
+
 
 ![Screenshot of statement for being sustainable.](/assets/image/readme-images/statement-about.png)
 
@@ -128,9 +128,9 @@ For any questions, feedback, or collaboration inquiries, please reach out to me 
 
 ### Content 
 The article titles used have all been linked and taken there.
-The tips used for tips and guide were from chatgpt.
-The code to make the footer was taken from the youtube. video: https://www.youtube.com/watch?v=RZ0RSlvhNdw&feature=youtu.be
-Part of the code to create the article boxes was taken from: https://www.youtube.com/watch?v=Zz8A4NqoLrE&feature=youtu.be
+The code to make the footer was taken from 
+[Youtube] (https://www.youtube.com/watch?v=RZ0RSlvhNdw&feature=youtu.be)
+Part of the code to create the article boxes was taken from [Yotube] (https://www.youtube.com/watch?v=Zz8A4NqoLrE&feature=youtu.be)
 
 ### Media 
 The images used on the about, tips and guide and news page are from Pexels.com
