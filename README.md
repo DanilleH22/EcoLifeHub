@@ -68,14 +68,14 @@ The aim of this website is to raise awareness on how being sustainable can benef
 * A statement about working together to be more sustainable.
 * Link to Article section to, so that users have easy access to learning more about different topics of sustainability.
 
-![Screenshot of statement for being sustainable.](/assets/image/readme-images/about-statement.png)
+![Screenshot of statement for being sustainable.](/assets/image/readme-images/statement-about.png)
 
 ### News Page 
 
 * Article links on different topics, each article has a picture to try represent the topic being covered by the artcile.
 * Allows users to find easy access as to how not being sustainable effects each topic area.
 
-![Screenshot of some of news article on the news page.](/assets/image/readme-images/news-articles.png)
+![Screenshot of some of the news article on the news page.](/assets/image/readme-images/news-articles.png)
 
 ## Testing
 
@@ -127,7 +127,7 @@ For any questions, feedback, or collaboration inquiries, please reach out to me 
 ## Credits
 
 ### Content 
-The artciles used have all been linked and taken there.
+The article titles used have all been linked and taken there.
 The tips used for tips and guide were from chatgpt.
 The code to make the footer was taken from the youtube. video: https://www.youtube.com/watch?v=RZ0RSlvhNdw&feature=youtu.be
 Part of the code to create the article boxes was taken from: https://www.youtube.com/watch?v=Zz8A4NqoLrE&feature=youtu.be
