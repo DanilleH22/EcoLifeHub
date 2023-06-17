@@ -35,18 +35,25 @@ The aim of this website is to raise awareness on how being sustainable can benef
 
 ### Footer 
 
-* Allows users to subscribe to our newsletter and keep connected and informed via email.
+* Allows users to subscribe to our newsletter and keep connected and informed via email, links to thank you page.
 * Links to relevant social media in a new tab, this also helps users stay connected via social media.
 * Navigation buttons at the bottom for Home, About and News, saving users from scrolling to the top of the website.
 
 ![Screenshot of footer across all three pages.](/assets/image/readme-images/footer-section.png)
+
+### Thank You Page
+
+* When users sign up they come to this page to confirm sign up.
+* Links users back to home page.
+
+![Screenshot of thank you page.](/assets/image/readme-images/thank-you.png)
 
 ### Landing About and News Photo
 
 * Picture of plant featured at the top of both About and News 
 * Allows users to know what page they are on
 
-![Screenshot of landing page photo and title of. page located on.](/assets/image/readme-images/head-photo.png)
+![Screenshot of landing page photo and title of page located on.](/assets/image/readme-images/head-photo.png)
 
 ### Who Are We Section 
 
