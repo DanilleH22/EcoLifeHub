@@ -711,7 +711,7 @@ footer {
    font-family: Montserrat, sans-serif;
    margin-top: 10px;
    border: outset;
-   border-width: 4px;
+   border-width: 2px;
    border-color: #36454f;
 }
 
@@ -753,6 +753,7 @@ footer {
 
    .bottom-thanks button {
       font-size: 70%;
+      color:#000;
    }
 
 }
