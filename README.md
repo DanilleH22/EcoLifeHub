@@ -101,7 +101,9 @@ When testing the website I had run into the issue of the images being used not b
 
 Another bug that I ahd faced was when trying to get my about sections to be responsive, photos and irames would not go horizontal. This was fixed by using 'grid-template-column' in css and 'order'.
 
-Another issue faced was when the website was deployed it would not show the picture images ojn the website, only the alt would show up. This was fixed by 
+Another issue faced was when the website was deployed it would not show the picture images on the website, only the alt would show up. This was fixed by removing the '/' before all images. 
+
+A bug that had been found is the submit form would not submit anywhere. An action and method was added to form however still it did not submit. In the end a thank you page was created and linked in form element, which also links back to the homepage. 
 
 ### Validator Testing 
 
