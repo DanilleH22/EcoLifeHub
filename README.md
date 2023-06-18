@@ -136,12 +136,12 @@ For any questions, feedback, or collaboration inquiries, please reach out to me 
 ## Credits
 
 ### Content 
-The article titles used have all been linked and taken there.
-The code to make the footer was taken from 
+* The article titles used have all been linked and taken there.
+* The code to make the footer was taken from 
 [Youtube] (https://www.youtube.com/watch?v=RZ0RSlvhNdw&feature=youtu.be)
-Part of the code to create the article boxes was taken from [Yotube] (https://www.youtube.com/watch?v=Zz8A4NqoLrE&feature=youtu.be)
+* Part of the code to create the article boxes was taken from [Yotube] (https://www.youtube.com/watch?v=Zz8A4NqoLrE&feature=youtu.be)
 
 ### Media 
-The images used on the about, tips and guide and news page are from Pexels.com
-The landing image was created in Canva.
-The icons used were from fontawesome.com.
+* The images used on the about, tips and guide and news page are from Pexels.com
+* The landing image was created in Canva.
+* The icons used were from fontawesome.com.
