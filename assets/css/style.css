@@ -714,3 +714,44 @@ footer {
    border-width: 4px;
    border-color: #36454f;
 }
+
+
+/* Media query for thanks - for screens 500px under */
+
+@media screen and (max-width: 500px){
+
+   .thank-you {
+      width: 85%;
+      height: 400px;
+      margin-left: 20%;
+      padding: 150px 0;
+   }
+
+   .top-thanks {
+      width: 70%;
+      height: 50%;
+   }
+
+   .top-thanks .fa-regular.fa-circle-check {
+      font-size: 1.5em;
+      background: transparent;
+   }
+
+   .top-thanks h2 {
+      font-size: 130%;
+   }
+
+   .bottom-thanks {
+      width: 70%;
+      height: 70%;
+   }
+
+   .bottom-thanks p {
+      font-size: 80%;
+   }
+
+   .bottom-thanks button {
+      font-size: 70%;
+   }
+
+}
