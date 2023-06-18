@@ -722,8 +722,8 @@ footer {
 
    .thank-you {
       width: 85%;
-      height: auto;
-      margin-left: 20%;
+      height: 100%;
+      margin: 70px;
       padding: 150px 0;
    }
 
@@ -735,6 +735,7 @@ footer {
    .top-thanks .fa-regular.fa-circle-check {
       font-size: 1.5em;
       background: transparent;
+      display: inline;
    }
 
    .top-thanks h2 {
