@@ -131,7 +131,7 @@ The live link will here: https://https://danilleh22.github.io/EcoLifeHub/
 * The article titles used have all been linked and will take you to original location.
 * The code to make the footer was taken from 
 [Code with Naus on Youtube] (https://www.youtube.com/watch?v=RZ0RSlvhNdw&feature=youtu.be)
-* Part of the code to create the article boxes was taken from [Web Zone on Yotube] (https://www.youtube.com/watch?v=Zz8A4NqoLrE&feature=youtu.be)
+* The code to create the article boxes on the home page and news page was taken from [Web Zone on Yotube] (https://www.youtube.com/watch?v=Zz8A4NqoLrE&feature=youtu.be)
 
 ### Media 
 * The images used on the about, tips and guide and news page are from Pexels.com
