@@ -129,10 +129,6 @@ The site has been deployed to GitHub. To deploy the website it was conducted as 
 
 The live link will here: https://https://danilleh22.github.io/EcoLifeHub/
 
-## Contact Information
-
-For any questions, feedback, or collaboration inquiries, please reach out to me on LinkedIn: https://uk.linkedin.com/in/danille-hamilton-971b29206
-
 ## Credits
 
 ### Content 
