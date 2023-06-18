@@ -5,7 +5,7 @@ The aim of this website is to raise awareness on how being sustainable can benef
 
 ### Navigation Bar 
 
-* On all three pages there is a responsive navigation bar, which includes Home, About, News.
+* On all three pages there is a responsive navigation bar which includes, Home, About, News.
 * The EcoLifeHub about links back to the home page.
 * The use of this is to make it easier to navigate through all the pages, without having to press the back button.
 
@@ -20,7 +20,7 @@ The aim of this website is to raise awareness on how being sustainable can benef
 ### Our Mission Section
 
 * Allows users to know our mission values, including the topics we will be covering
-* This section also allows users to knwo what we stand for and why we created the website
+* This section also allows users to know what we stand for and why we created the website
 
 ![Screenshot of Our mission in home section.](/assets/image/readme-images/our-mission.png)
 
@@ -50,14 +50,14 @@ The aim of this website is to raise awareness on how being sustainable can benef
 
 ### Landing About and News Photo
 
-* Picture of plant featured at the top of both About and News 
-* Allows users to know what page they are on
+* Picture of plant featured at the top of both About and News.
+* Allows users to know what page they are on.
 
 ![Screenshot of landing page photo and title of page located on.](/assets/image/readme-images/head-photo.png)
 
 ### Who Are We Section 
 
-* Intro of who we are and let users know why we creayed the website
+* Intro of who we are and let users know why we created the website.
 * There is also a photo of a phone with recycling, this is to not bore users with just text.
 
 ![Screenshot of who are we section in about page.](/assets/image/readme-images/who-are-we.png)
@@ -79,27 +79,27 @@ The aim of this website is to raise awareness on how being sustainable can benef
 
 ### News Page 
 
-* Article links on different topics, each article has a picture to try represent the topic being covered by the artcile.
+* Article links on different topics, each article has a picture to try represent the topic being covered by the artcle.
 * Allows users to find easy access as to how not being sustainable effects each topic area.
 
 ![Screenshot of some of the news article on the news page.](/assets/image/readme-images/news-articles.png)
 
 ## Testing
 
-* The Websiste has been tested to see if it works well in the chrome devtools. 
+* The Website has been tested to see if it works well in the chrome devtools. 
 * It has been tested on different devices, on each broswer if it gets small all elements should go underneath one another. 
 * The website has also been tested to see how it looks on other web browsers.
 
 
 * All social media links in the footer have been clicked to check if they open in a new tab.
 * A tested email has also been givent to ensure it will click through.
-* Aticles have been clicked to ensure that they open to the correct article, along with in a new tab. 
+* Articles have been clicked to ensure that they open to the correct article, along with in a new tab. 
 * The embedded video has also been played to make sure it works and controls are working too. 
 * The navigation at the top and in the footer has been tested to make sure it clicks to the page been shown.
 
 When testing the website I had run into the issue of the images being used not being responsive. This was fixed by changing images from jpg to webp and including a fixed height and width in the HTML code. 
 
-Another bug that I ahd faced was when trying to get my about sections to be responsive, photos and irames would not go horizontal. This was fixed by using 'grid-template-column' in css and 'order'.
+Another bug that I had faced was when trying to get my about sections to be responsive, photos and irames would not go horizontal. This was fixed by using 'grid-template-column' in css and 'order'.
 
 Another issue faced was when the website was deployed it would not show the picture images on the website, only the alt would show up. This was fixed by removing the '/' before all images. 
 
@@ -111,13 +111,9 @@ Validator testing has been conducted to find any errors on the website.
  
 * When passing through W3C HTML Validator, no errors were returned.
 * When passing through W3C CSS Validation tester no errors were returned.
-When passing through jigsaw no errors were returned 
 * Lighthouse in Devtools has been used to check the accessibility, confirming the font and color chosen are well suited.
 
 ![Screenshot of Navigation bar.](/assets/image/readme-images/lighthouse-accesibility.png)
-
-### Unfixed Bugs
-Responsiveness
 
 ## Deployment
 
@@ -132,10 +128,10 @@ The live link will here: https://https://danilleh22.github.io/EcoLifeHub/
 ## Credits
 
 ### Content 
-* The article titles used have all been linked and taken there.
+* The article titles used have all been linked and will take you to original location.
 * The code to make the footer was taken from 
-[Youtube] (https://www.youtube.com/watch?v=RZ0RSlvhNdw&feature=youtu.be)
-* Part of the code to create the article boxes was taken from [Yotube] (https://www.youtube.com/watch?v=Zz8A4NqoLrE&feature=youtu.be)
+[Code with Naus on Youtube] (https://www.youtube.com/watch?v=RZ0RSlvhNdw&feature=youtu.be)
+* Part of the code to create the article boxes was taken from [Web Zone on Yotube] (https://www.youtube.com/watch?v=Zz8A4NqoLrE&feature=youtu.be)
 
 ### Media 
 * The images used on the about, tips and guide and news page are from Pexels.com
